@@ -25,6 +25,7 @@ export default defineConfig(({ mode }) => ({
             '/blog/my-first-post',
             '/blog/my-second-post',
             '/blog/2023-09-30-tailwind.md',
+            '/blog/standalone-component.md',
           ];
         },
       },
