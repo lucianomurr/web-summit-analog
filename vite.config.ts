@@ -14,17 +14,13 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     analog({
-      ssrBuildDir: '/dist/apps/my-app/ssr',
       static: true,
       prerender: {
         routes: async () => {
           return [
             '/',
-            '/blog',
-            '/about',
-            '/blog/my-first-post',
-            '/blog/my-second-post',
-            '/blog/2023-09-30-tailwind.md',
+            '/blog/2023-10-01-my-first-post',
+            '/blog/2023-10-01-my-second-post'
           ];
         },
       },

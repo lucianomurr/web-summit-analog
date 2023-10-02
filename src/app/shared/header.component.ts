@@ -10,7 +10,7 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
       <div class="flex h-16 items-center justify-between">
         <div class="md:flex md:items-center md:gap-12">
           <span class="sr-only">Home</span>
-          <a href="./" target="_blank">
+          <a href="/">
             <svg
               width="44"
               height="44"

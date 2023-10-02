@@ -9,7 +9,7 @@ import { FooterComponent } from './shared/footer.component';
   template: ` <div class="flex flex-col h-screen justify-between">
     <app-header />
     <div
-      class="max-w-7xl px-6 py-24 mx-auto space-y-12 dark:bg-gray-800 dark:text-gray-50 h-full"
+      class="max-w-7xl px-6 py-24 mx-auto space-y-12 h-full"
     >
       <router-outlet />
     </div>
